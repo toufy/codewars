@@ -1,3 +1,5 @@
+# Counting Duplicates
+# https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1
 def duplicate_count(text: str):
     s = text.lower()
     S1 = set(s)

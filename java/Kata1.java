@@ -1,3 +1,5 @@
+// Who likes it?
+// https://www.codewars.com/kata/5266876b8f4bf2da9b000362
 class Solution {
     public static String whoLikesIt(String... names) {
         switch (names.length) {
@@ -7,13 +9,13 @@ class Solution {
                 return names[0] + " likes this";
             case 2:
                 return String.format("%1$s and %2$s like this",
-                                        names[0], names[1]);
+                        names[0], names[1]);
             case 3:
                 return String.format("%1$s, %2$s and %3$s like this",
-                                        names[0], names[1], names[2]);
+                        names[0], names[1], names[2]);
             default:
                 return String.format("%1$s, %2$s and %3$d others like this",
-                                        names[0], names[1], names.length-2);
+                        names[0], names[1], names.length - 2);
         }
     }
 }
