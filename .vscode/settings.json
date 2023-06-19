@@ -1,5 +1,3 @@
 {
-    "java.project.sourcePaths": [
-        "java"
-    ]
+    "java.project.sourcePaths": ["java"]
 }
