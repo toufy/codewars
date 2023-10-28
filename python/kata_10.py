@@ -1,8 +1,9 @@
+# Calculating with Functions
+# https://www.codewars.com/kata/525f3eda17c7cd9f9e000b39
+
 from typing import Callable
 
 
-# Calculating with Functions
-# https://www.codewars.com/kata/525f3eda17c7cd9f9e000b39
 def zero(op: Callable[[int], int] | None = None):
     if op:
         x = op(0)

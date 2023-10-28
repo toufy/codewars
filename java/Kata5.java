@@ -1,5 +1,6 @@
 // Find the Parity Outlier
 // https://www.codewars.com/kata/5526fc09a1bbd946250002dc
+
 class FindOutlier {
     static int find(int[] integers) {
         int countEven = 0, countOdd = 0;

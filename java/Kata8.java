@@ -1,7 +1,8 @@
-import java.util.Stack;
-
 // Data Reverse
 // https://www.codewars.com/kata/569d488d61b812a0f7000015
+
+import java.util.Stack;
+
 class Kata {
     public static int[] DataReverse(int[] data) {
         int[] reversedBits = new int[data.length];

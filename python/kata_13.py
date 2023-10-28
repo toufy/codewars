@@ -1,5 +1,7 @@
 # Build Tower Advanced
 # https://www.codewars.com/kata/57675f3dedc6f728ee000256
+
+
 def tower_builder(n_floors: int, block_size: tuple[int, int]):
     floors: list[str] = []
     w, h = block_size

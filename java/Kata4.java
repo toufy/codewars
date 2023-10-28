@@ -1,7 +1,8 @@
-import java.util.PriorityQueue;
-
 // Sort the odd
 // https://www.codewars.com/kata/578aa45ee9fd15ff4600090d
+
+import java.util.PriorityQueue;
+
 class Kata {
     public static int[] sortArray(int[] array) {
         PriorityQueue<Integer> indecies = new PriorityQueue<Integer>();

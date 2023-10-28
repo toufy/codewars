@@ -1,9 +1,10 @@
+// Array.diff
+// https://www.codewars.com/kata/523f5d21c841566fde000009
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 
-// Array.diff
-// https://www.codewars.com/kata/523f5d21c841566fde000009
 class Kata {
     public static int[] arrayDiff(int[] a, int[] b) {
         ArrayList<Integer> aNew = Arrays.stream(a).boxed().collect(Collectors.toCollection(ArrayList::new));

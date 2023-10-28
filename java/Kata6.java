@@ -1,5 +1,6 @@
 // Build Tower
 // https://www.codewars.com/kata/576757b1df89ecf5bd00073b
+
 class Kata {
     public static String[] towerBuilder(int nFloors) {
         String[] floors = new String[nFloors];

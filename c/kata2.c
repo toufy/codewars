@@ -1,8 +1,8 @@
-#include <stddef.h>
-#include <stdlib.h>
-
 // Sum of two lowest positive integers
 // https://www.codewars.com/kata/558fc85d8fd1938afb000014
+
+#include <stddef.h>
+#include <stdlib.h>
 
 int compare(const void *a, const void *b)
 {

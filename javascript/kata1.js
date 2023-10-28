@@ -1,5 +1,6 @@
 // Does my number look big in this?
 // https://www.codewars.com/kata/5287e858c6b5a9678200083c
+
 function narcissistic(value) {
     const numLen = Math.floor(Math.log10(Math.abs(value))) + 1;
     const digits = Math.abs(value).toString().split("").map(Number);
